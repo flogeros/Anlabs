@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Иванов Lab_2</string>
+    <string name="plus_button_text">+</string>
+    <string name="minus_button_text">-</string>
+    <string name="division_button_text">/</string>
+    <string name="multiply_button_text">*</string>
+    <string name="clear_button_text">Очистить поля</string>
+    <string name="enter_view_text">Введите значения:</string>
+    <string name="select_view_text">Выберите команду:</string>
+    <string name="answer_view_text">Ответ</string>
+    <string name="empty_edit_view_text">0</string>
+    <string name="infinity_text">infinity</string>
+    <string name="first_empty_view">Заполни первое поле</string>
+    <string name="second_empty_view">Заполни второе поле</string>
+    <string name="views_are_empty">Поля очищены</string>
+    <string name="too_big_numbers">"Введены слишком большие числа</string>
+</resources>

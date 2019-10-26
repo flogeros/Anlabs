@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:gravity="center">
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/all_texts_layout"
+                      android:orientation="vertical"
+                      android:gravity="bottom|center"
+                      android:layout_marginBottom="10sp"
+                      android:layout_weight="1">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/enter_text"
+                      android:text="@string/enter_view_text"
+                      android:textSize="20sp"/>
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/edit_texts_layout"
+                          android:orientation="horizontal"
+                          android:gravity="center">
+
+                <EditText android:layout_width="100sp"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/first_number"
+                          android:inputType="number"
+                          android:textSize="15sp"
+                          android:autofillHints="@string/empty_edit_view_text"
+                          tools:targetApi="o" tools:ignore="LabelFor"/>
+
+                <TextView android:layout_width="15sp"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/symbol_text"
+                          android:textSize="15sp"/>
+
+                <EditText android:layout_width="100sp"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/second_number"
+                          android:inputType="number"
+                          android:textSize="15sp"
+                          android:autofillHints="@string/empty_edit_view_text"
+                          tools:targetApi="o" tools:ignore="LabelFor"/>
+
+            </LinearLayout>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/answer_text"
+                      android:text="@string/answer_view_text"
+                      android:textSize="15sp"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/buttons_layout"
+                      android:orientation="vertical"
+                      android:layout_weight="1"
+                      android:gravity="center">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/select_view_text"
+                      android:textSize="20sp"/>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/plus_minus_layout"
+                          android:orientation="horizontal"
+                          android:gravity="center">
+
+                <Button android:layout_width="150sp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/plus_button"
+                        android:background="@drawable/button_style"
+                        android:text="@string/plus_button_text"/>
+
+                <Button android:layout_width="150sp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/minus_button"
+                        android:background="@drawable/button_style"
+                        android:text="@string/minus_button_text"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/division_multiply_layout"
+                          android:orientation="horizontal"
+                          android:gravity="center">
+
+                <Button android:layout_width="150sp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/division_button"
+                        android:background="@drawable/button_style"
+                        android:text="@string/division_button_text"/>
+
+                <Button android:layout_width="150sp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/multiply_button"
+                        android:background="@drawable/button_style"
+                        android:text="@string/multiply_button_text"/>
+            </LinearLayout>
+
+            <Button android:layout_width="150sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/clear_button"
+                    android:background="@drawable/button_style"
+                    android:text="@string/clear_button_text"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

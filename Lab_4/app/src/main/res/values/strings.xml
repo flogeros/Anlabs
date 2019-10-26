@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Иванов Lab_4</string>
+
+    <string name="night">Ночь</string>
+    <string name="morning">Утро</string>
+    <string name="day">День</string>
+    <string name="evening">Вечер</string>
+
+</resources>

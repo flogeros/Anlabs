@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Иванов Lab_3</string>
+    <string name="person_name">Напишите Ваше имя</string>
+    <string name="take_photo_button">Сделать снимок</string>
+    <string name="empty_name_view">Вы не ввели ваше имя!</string>
+    <string name="error_text">Упс, что-то пошло не так...</string>
+</resources>

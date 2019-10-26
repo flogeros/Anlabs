@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ivanov Lab_3</string>
+    <string name="person_name">Enter your name</string>
+    <string name="take_photo_button">Take a photo</string>
+    <string name="empty_name_view">You have not entered your name!</string>
+    <string name="error_text">Oops, something went wrong...</string>
+</resources>
